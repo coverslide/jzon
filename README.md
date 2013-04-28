@@ -45,6 +45,14 @@ var x = jzon('parse', str);
 var y = jzon('stringify', obj);
 ```
 
+And, if you like callback style, the last argument can be a callback.
+
+```javascript
+jzon.parse(str, function(err, obj){
+  if(err) return
+})
+```
+
 ## License
 
 ISC
