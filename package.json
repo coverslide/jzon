@@ -1,6 +1,6 @@
 {
   "name": "jzon",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple wrapper for JSON functions to return errors instead of throw",
   "main": "index.js",
   "scripts": {
